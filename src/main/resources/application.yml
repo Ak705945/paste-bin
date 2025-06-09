@@ -6,8 +6,8 @@ spring:
   datasource:
     url: jdbc:h2:file:./data/pasteBin
     driver-class-name: org.h2.Driver
-    username: userName
-    password: password
+    username: pastebinAdmin
+    password: arman.bst99
     platform: h2
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
